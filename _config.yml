@@ -1,0 +1,19 @@
+# Setup
+title:               'nowol79's hello page'
+description:         'nowol79's knowledge base page'
+url:                 'http://github.com/nowol79'
+baseurl:             '/hello/'
+permalink:           /posts/:title/
+
+# Github
+github:
+  url: https://nowol79.github.io/hello
+  repo: https://github.com/nowol79 
+
+# About/contact
+author:
+  name:              nowol79
+  email:             yunkyung.lee@navercorp.com
+
+# Custom vars
+version:             0.0.1

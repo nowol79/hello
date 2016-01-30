@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="post-author">
+  {{% if page.author %}}
+  <a href="{{ site.github.url }}/{{ page.author }}">{{ page.author }}</a>
+  {{% endif %}}
+</div>
+
+<div class="post">
+  <h2 class="post-title">{{ page.title }}</h2>
+  <br/>
+  {{ content }}
+</div>
+
